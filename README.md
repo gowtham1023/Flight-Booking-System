@@ -55,7 +55,7 @@ A full-stack **Flight Booking Web Application** that allows users to search for 
 
 ### Admin Dashboard
 
-![Admin](./screenshots/Dashboard.png)
+![Admin](./Dashboard.png)
 
 ---
 
