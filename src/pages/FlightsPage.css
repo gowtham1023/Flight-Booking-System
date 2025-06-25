@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #1f4037, #99f2c8);
+  color: #fff;
+  min-height: 100vh;
+}
+
+.flights-container {
+  padding: 50px 30px;
+}
+
+.flights-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #ffe082;
+}
+
+.search-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 40px;
+}
+
+.search-box input {
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: none;
+  font-size: 1rem;
+  width: 180px;
+  background-color: #fff;
+  color: #333;
+}
+
+.search-box button {
+  padding: 10px 16px;
+  border-radius: 8px;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: #00c853;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.search-box button:hover {
+  background-color: #00a152;
+}
+
+.flight-results {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 25px;
+}
+
+.flight-card {
+  background-color: rgba(255, 255, 255, 0.08);
+  padding: 20px;
+  border-radius: 14px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+
+.flight-details {
+  line-height: 1.6;
+  font-size: 1rem;
+  max-width: 70%;
+}
+
+.flight-route {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.book-btn {
+  padding: 8px 14px;
+  font-size: 0.95rem;
+  background-color: #2979ff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  white-space: nowrap;
+}
+
+.book-btn:hover {
+  background-color: #1565c0;
+}
+
+.no-results {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #ffcccb;
+}

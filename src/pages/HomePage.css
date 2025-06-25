@@ -1,0 +1,28 @@
+.home-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(135deg, #e6f0fa, #cfe7f7);
+  color: #ffffff;
+  overflow: hidden;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.home-content {
+  text-align: center;
+  margin-top: 20vh;
+}
+
+.home-content h1 {
+  font-size: 2.6rem;
+  font-weight: bold;
+  color: #2a4d7f;
+  margin: 0;
+}
+
+.home-content p {
+  font-size: 1.2rem;
+  color: #3d5a80;
+  margin: 10px 0 0 0;
+}
+
